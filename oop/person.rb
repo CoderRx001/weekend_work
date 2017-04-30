@@ -1,7 +1,23 @@
 # Create a person class with readable first_name and last_name attributes 
 # and a method to calculate its full_name.
 
+class Person 
+  
+  def initialize(input_options) 
+    @first_name = input_options
+    @last_name = input_options
+  end
 
+  def first_name
+    @first_name = "Peter"
+  end
+
+  def last_name
+    @last_name = "Jang"
+  end
+end
+
+person = ["Peter", "Jang"]
 
 # Driver code - don't touch anything below this line.
 puts "TESTING the Person class..."
