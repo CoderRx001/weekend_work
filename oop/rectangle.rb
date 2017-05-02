@@ -14,10 +14,14 @@ class Rectangle
   def height
     @height = 30
   end
+
+  def area
+    @area = @width * @height
+  end
+
 end
 
-print "What is the area of your rectangle? > "
-area = @width * @height
+print "What is the area of your rectangle? "
 
 
 # Driver code - don't touch anything below this line.

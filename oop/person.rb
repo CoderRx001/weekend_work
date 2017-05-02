@@ -2,22 +2,18 @@
 # and a method to calculate its full_name.
 
 class Person 
-  
+  attr_reader :first_name, :last_name
+
   def initialize(input_options) 
-    @first_name = input_options
-    @last_name = input_options
+    @first_name = input_options[:first_name]
+    @last_name = input_options[:last_name]
   end
 
-  def first_name
-    @first_name = "Peter"
-  end
-
-  def last_name
-    @last_name = "Jang"
+  def person(input_options)
+    
   end
 end
 
-person = ["Peter", "Jang"]
 
 # Driver code - don't touch anything below this line.
 puts "TESTING the Person class..."
