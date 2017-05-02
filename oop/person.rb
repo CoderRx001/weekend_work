@@ -4,9 +4,9 @@
 class Person 
   attr_reader :first_name, :last_name
 
-  def initialize(input_options) 
-    @first_name = input_options[:first_name]
-    @last_name = input_options[:last_name]
+  def initialize(first_name, last_name) 
+    @first_name = first_name
+    @last_name = last_name
   end
 
   def person(input_options)

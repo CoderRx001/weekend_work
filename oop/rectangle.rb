@@ -3,8 +3,9 @@
 
 class Rectangle
 
-    def initialize(input_options) 
-      @area = input options
+    def initialize(width, height) 
+      @width = width
+      @height = height
     end
 
   def width
